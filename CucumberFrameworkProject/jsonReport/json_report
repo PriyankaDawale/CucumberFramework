@@ -1,0 +1,291 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1637842,
+              "error_message": "java.lang.NullPointerException\r\n\tat gherkin.formatter.JSONFormatter.getSteps(JSONFormatter.java:235)\r\n\tat gherkin.formatter.JSONFormatter.getCurrentStep(JSONFormatter.java:65)\r\n\tat gherkin.formatter.JSONFormatter.getOutput(JSONFormatter.java:253)\r\n\tat gherkin.formatter.JSONFormatter.write(JSONFormatter.java:136)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:294)\r\n\tat com.sun.proxy.$Proxy12.write(Unknown Source)\r\n\tat cucumber.runtime.junit.JUnitReporter.write(JUnitReporter.java:90)\r\n\tat cucumber.runtime.ScenarioImpl.write(ScenarioImpl.java:66)\r\n\tat stepDefination.Login1StepDefination.beforeMethod(Login1StepDefination.java:26)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Login1StepDefination.beforeMethod(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Parameter testing with valid credentials",
+        "description": "",
+        "id": "free-crm-pro-test-login;parameter-testing-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 138684,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefination.Login1StepDefination.afterMethod(Login1StepDefination.java:32)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Login1StepDefination.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Open browser As \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 17
+                }
+              ],
+              "location": "Login1StepDefination.open_browser_As(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "navigate to url As \"https://www.crmpro.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.crmpro.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login1StepDefination.navigate_to_url_As(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter user name As \"Mayuri_257\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayuri_257",
+                  "offset": 20
+                }
+              ],
+              "location": "Login1StepDefination.enter_user_name_As(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter password As \"Mayuri$257\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayuri$257",
+                  "offset": 19
+                }
+              ],
+              "location": "Login1StepDefination.enter_password_As(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "clicked on Login Button",
+            "match": {
+              "location": "Login1StepDefination.clicked_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "before going to launch the browser set system variable path for browser"
+            ],
+            "line": 11,
+            "name": "user shoukd be on home page \"CRMPRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRMPRO",
+                  "offset": 29
+                }
+              ],
+              "location": "Login1StepDefination.user_shoukd_be_on_home_page(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 330596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login1StepDefination.beforeMethod(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Parameter testing with invalid credentials",
+        "description": "",
+        "id": "free-crm-pro-test-login;parameter-testing-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1364815979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login1StepDefination.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24753819679,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open browser As \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 17
+                }
+              ],
+              "location": "Login1StepDefination.open_browser_As(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15837991792,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "navigate to url As \"https://www.crmpro.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.crmpro.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login1StepDefination.navigate_to_url_As(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8226954473,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter user name As \"Mayuri_2571\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayuri_2571",
+                  "offset": 20
+                }
+              ],
+              "location": "Login1StepDefination.enter_user_name_As(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7545799525,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enter password As \"Mayuri$257\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayuri$257",
+                  "offset": 19
+                }
+              ],
+              "location": "Login1StepDefination.enter_password_As(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7299952730,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicked on Login Button",
+            "match": {
+              "location": "Login1StepDefination.clicked_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 637832696,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user shoukd be on home page \"CRMPRO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRMPRO",
+                  "offset": 29
+                }
+              ],
+              "location": "Login1StepDefination.user_shoukd_be_on_home_page(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Free crm pro test login",
+    "description": "",
+    "id": "free-crm-pro-test-login",
+    "keyword": "Feature",
+    "uri": "login1.feature"
+  }
+]

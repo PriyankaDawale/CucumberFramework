@@ -7,12 +7,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\CucumberFrameworkProject\\src\\main\\java\\features\\login.feature",
-		glue={"stepDefination"}		
+		features="C:\\Users\\Shree\\git\\CucumberFramework\\CucumberFrameworkProject\\Feature",
+		glue={"stepDefination"},
+		format={"html:test-outout\\cucumber_report"}
 		)
 
-public class LoginTestRunner {
-
-	
+public class LoginTestRunner {	
 	
 }
